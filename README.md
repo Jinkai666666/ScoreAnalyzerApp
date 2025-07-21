@@ -1,2 +1,36 @@
 # ScoreAnalyzerApp
-Android app to record, analyze and classify student scores.
+
+这是一个用 Kotlin 开发的 Android 应用，可以记录学生成绩并进行分类分析。
+
+## 功能说明
+
+- 添加学生成绩
+- 修改和删除成绩
+- 自动分类成绩为优秀、良好、及格、不及格
+- 查询指定学生的成绩
+- 显示平均分、最高分、最低分
+- 清空全部记录
+- 输入为空会提示，查询结果为空时显示暂无数据
+
+## 技术说明
+
+- 使用 Kotlin 编写
+- 使用 Room 数据库保存数据
+- 使用 RecyclerView 显示列表
+- 使用多页面跳转实现增删查改
+- 使用 Toast 和弹窗优化用户操作体验
+
+## APK 安装包
+
+你可以下载并安装 APK 文件进行测试  
+下载地址（发布后填写）：
+
+https://github.com/Jinkai666666/ScoreAnalyzerApp/releases
+
+## 使用说明
+
+打开应用后可以添加学生成绩，自动分级，查看历史记录，支持修改与删除。数据保存在本地，无需联网。
+
+## 作者
+
+由 Jinkai666666 学习开发，仅用于学习和作品展示
