@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 结果页面布局，垂直排列，显示姓名、成绩和等级 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <!-- 显示学生姓名 -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名: "
+        android:contentDescription="显示学生姓名"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 显示学生成绩 -->
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="成绩: "
+        android:contentDescription="显示学生成绩"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 显示学生等级 -->
+    <TextView
+        android:id="@+id/textViewGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等级: "
+        android:contentDescription="显示学生等级"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 返回首页按钮 -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@drawable/rounded_button"
+        android:text="返回首页"
+        android:contentDescription="返回首页按钮"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</LinearLayout>

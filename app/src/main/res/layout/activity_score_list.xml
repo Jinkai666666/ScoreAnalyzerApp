@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 历史成绩列表界面布局，包含一个 RecyclerView 用于展示成绩记录 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <!-- 空状态提示文本 -->
+    <TextView
+        android:id="@+id/textViewEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂无成绩记录"
+        android:textColor="#888888"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="12dp" />
+
+    <!-- RecyclerView：显示成绩列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewScores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="成绩列表" />
+</LinearLayout>

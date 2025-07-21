@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主界面布局：输入姓名、成绩，并提供按钮操作 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <!-- 姓名标签 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:labelFor="@id/editTextName"
+        android:paddingBottom="4dp" />
+
+    <!-- 姓名输入框 -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="请输入姓名"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="16sp" />
+
+    <!-- 成绩标签 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="成绩"
+        android:labelFor="@id/editTextScore"
+        android:paddingTop="16dp"
+        android:paddingBottom="4dp" />
+
+    <!-- 成绩输入框 -->
+    <EditText
+        android:id="@+id/editTextScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="请输入成绩"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="16sp" />
+
+    <!-- 提交按钮 -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="提交成绩"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!-- 查看历史按钮 -->
+    <Button
+        android:id="@+id/buttonViewList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_button"
+        android:text="查看历史成绩"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!-- 查询成绩按钮 -->
+    <Button
+        android:id="@+id/buttonGoQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_button"
+        android:text="查询成绩"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!-- 上次成绩显示区域 -->
+    <TextView
+        android:id="@+id/textViewLastScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:text="上次成绩：暂无"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="16sp" />
+</LinearLayout>

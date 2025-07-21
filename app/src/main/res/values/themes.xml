@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.ScoreAnalyzerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 如果是 Compose，默认可能写这个 -->
+    </style>
+</resources>
