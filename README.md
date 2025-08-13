@@ -23,7 +23,7 @@
 ## APK 安装包
 
 你可以下载并安装 APK 文件进行测试  
-下载地址（发布后填写）：
+下载地址：
 
 https://github.com/Jinkai666666/ScoreAnalyzerApp/releases
 
